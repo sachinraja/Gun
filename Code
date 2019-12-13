@@ -95,7 +95,7 @@ namespace CSGO_Weapon_Information
 
         private void btnStats_Click(object sender, EventArgs e)
         {
-            lblGun1.Text = ((Gun)cboGuns.SelectedItem).aString;
+            lblGun1.Text = ((Gun)cboGuns.SelectedItem).gunString();
         }
 
         private void cboGuns_SelectedIndexChanged(object sender, EventArgs e)
